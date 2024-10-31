@@ -1,0 +1,5 @@
+@import 'reset/reset.css';
+@import 'global/variables.css';
+@import 'global/style.css';
+@import 'layouts/header.css';
+@import 'layouts/hero.css';

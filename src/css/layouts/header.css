@@ -1,0 +1,79 @@
+/* Estilos base (Mobile First) */
+.header{
+    display: inline;
+    text-align: center;
+}
+.header--logo{
+    padding: 1rem;
+    font-family: var(--titulo);
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-size: 1rem; 
+}
+.logo--subtitulo{
+    color: var(--color-accent-purple);  
+}
+.logo--titulo{
+    color: var(--color-neutral-light);
+}
+.header--line{
+    border-color: var(--color-accent-purple);
+}
+
+.header--nav{
+    display: none;
+    font-weight: bold;
+    font-size: 0.6rem;
+    font-family: var(--titulo);
+    color: var(--color-neutral-light);
+}
+.nav--menu{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+.menu--itens--link{
+    border: 1px solid red;
+    transition: 1s;
+    color: var(--color-neutral-light);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+/* -------------------------------------------------------------- */
+/* Tablet (até 768px) */
+@media (min-width: 577px){
+    .header{
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header--line{
+        display: none;
+    }
+    .header--logo{
+        font-size: 1rem; 
+    }    
+    .header--nav{
+        display: block;
+        background-color: var(--color-accent-purple);
+        font-size: 0.7rem;
+    }
+    .nav--menu{
+        justify-content: space-around;
+    }
+    .menu--itens--link:hover{
+        transition: 0.7s;
+        color: var(--color-background-dark)
+    }
+}
+
+/* Desktop (até 992px) */
+@media (min-width: 769px) {
+}
+
+/* Large Desktop (até 1200px) */
+@media (min-width: 993px) {
+}
+
+/* Extra Large (acima de 1200px) */
+@media (min-width: 1201px) {
+  
+}

@@ -1,0 +1,53 @@
+/* Estilos base (Mobile First) */
+.hero-main{
+    margin: 5rem auto;
+}
+.hero--titulo{
+    color: var(--color-neutral-light);
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+    font-family: var(--titulo);
+    text-align: center;
+}
+.hero--name{
+    color: var(--color-accent-purple);
+}
+.hero--texto{
+    margin-top: 2rem;
+    color: var(--color-neutral-light);
+    text-align: justify;
+    font-family: var(--texto);
+    letter-spacing: 0.1rem;
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+.hero--imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.hero--imagem--perfil{
+    height: 20rem;
+    border-radius: 100%;
+}
+/* -------------------------------------------------------------- */
+/* Tablet (até 768px) */
+@media (min-width: 577px){
+
+}
+
+/* Desktop (até 992px) */
+@media (min-width: 769px) {
+}
+
+/* Large Desktop (até 1200px) */
+@media (min-width: 993px) {
+}
+
+/* Extra Large (acima de 1200px) */
+@media (min-width: 1201px) {
+  
+}
