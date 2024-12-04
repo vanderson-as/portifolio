@@ -6,7 +6,7 @@ Este projeto é um site de portfólio desenvolvido com **HTML** e **CSS**, utili
 
 ## 👤 Sobre Mim
 
-Meu nome é **Vanderson Andrade** e estudante de **Análise e Desenvolvimento de Sistemas**, sou aspirante a desenvolvedor com o objetivo na área de backend. Estou no início da minha jornada na área de tecnologia e este portfólio é uma forma de consolidar meus conhecimentos e compartilhar minha evolução no desenvolvimento web.
+Meu nome é **Vanderson Andrade** e estou cursando **Análise e Desenvolvimento de Sistemas**, sou aspirante a desenvolvedor com foco na área de backend. Estou no início da minha jornada na área de tecnologia e este portfólio é uma forma de consolidar meus conhecimentos e compartilhar minha evolução no desenvolvimento web.
 
 ---
 
