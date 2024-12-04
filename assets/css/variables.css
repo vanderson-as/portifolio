@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Russo+One&display=swap");
+
+:root {
+  /* CSS HEX */
+  --color-text: #011423ff;
+  --color-secundary: #011627ff;
+  --color-title: #7c172eff;
+  --color-aux: #ba1732ff;
+  --color-primary: #fdfffcff;
+
+  /* GOOGLE FONTS */
+  --font-title: "Russo One", serif;
+  --font-text: "Parkinsans", serif;
+}
