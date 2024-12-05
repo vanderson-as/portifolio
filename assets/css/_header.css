@@ -1,32 +1,72 @@
+/* Mobile First Approach */
 .header-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--color-secundary);
-  padding: 1.5rem;
+  /* padding: 1.5rem; */
+  height: 14rem;
+  width: 100%;
   text-align: center;
 }
 .logo {
   font-size: 2.5rem;
   color: var(--color-primary);
   font-family: var(--font-title);
-  margin-bottom: 1rem;
 }
 .logo-span {
   color: var(--color-aux);
 }
-
 .social-media {
   display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  gap: 1rem;
 }
 .icon-header {
   color: var(--color-primary);
-  font-size: 2.5rem;
   cursor: pointer;
   padding: 1rem;
+  transition: 0.5s;
 }
 .icon-header:hover {
   color: var(--color-aux);
-  transition: 1s;
+  transition: 0.5s;
+  rotate: -3deg;
+  font-size: 3rem;
 }
+
+/* Breakpoints */
+@media (min-width: 576px) {
+  /* Small devices (landscape phones) */
+  .header-main {
+    height: 10rem;
+  }
+  .container-header {
+    display: inline-flex;
+    width: 90%;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+  }
+  .logo {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Medium devices (tablets) */
+  .container-header {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Large devices (desktops) */
+  .logo {
+    font-size: 3rem;
+  }
+}
+
