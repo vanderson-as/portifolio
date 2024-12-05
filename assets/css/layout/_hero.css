@@ -1,0 +1,28 @@
+.section-hero{
+  height: 100%;
+}
+.hero-headline{
+  padding: 4rem;
+}
+.headline{
+  text-transform: uppercase;
+  font-family: var(--font-title);
+  text-align: center;
+  letter-spacing: 0.1rem;
+  color: var(--color-title);
+  font-size: 2rem;
+}
+.subheadline{
+  margin-top: 1.5rem;
+  color: var(--color-text);
+  font-weight: bold;
+  font-family: var(--font-text);
+  letter-spacing: 0.1rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.hero-img{
+  margin: 0 auto;
+  height: 60%;
+  width: 60%;
+}
